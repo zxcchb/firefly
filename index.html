@@ -1,13 +1,62 @@
-<iframe
-  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-  frameborder="0"
-  height="175"
-  style="width: 100%; max-width: auto; overflow: hidden; border-radius: 10px"
-  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-  src="https://embed.music.apple.com/cn/album/%E4%BD%BF%E4%B8%80%E9%A2%97%E5%BF%83%E5%85%8D%E4%BA%8E%E5%93%80%E4%BC%A4/1744862740?i=1744862743"
->
-</iframe>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H5 示例</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .item {
+            width: 48%;
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .item {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <iframe
+        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+        frameborder="0"
+        height="175"
+        style="width: 100%; max-width: 100%; overflow: hidden; border-radius: 10px;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/cn/album/%E4%BD%BF%E4%B8%80%E9%A2%97%E5%BF%83%E5%85%8D%E4%BA%8E%E5%93%80%E4%BC%A4/1744862740?i=1744862743">
+    </iframe>
 
-<h2>▼《崩坏：星穹铁道》动画短片：「格拉默的余烬」▼</h2>
-
-<video src="https://fastcdn.mihoyo.com/content-v2/hkrpg/124131/a8762cac6208580ec3c5cb585c016e72_951778516158044649.mov" title="" controls="controls" controlslist="nodownload" poster="https://fastcdn.mihoyo.com/content-v2/hkrpg/124131/a8762cac6208580ec3c5cb585c016e72_951778516158044649.mov?x-oss-process=video%2Fsnapshot%2Ct_0%2Cf_jpg%2Ch_600%2Cm_fast" webkit-playsinline="true" playsinline="true" style="width:800px;vertical-align:middle;"></video>
+    <div class="container">
+        <div class="item">
+            <h2>▼《崩坏：星穹铁道》千星纪游PV：「此刻，在同一片星空下」▼</h2>
+            <video 
+                src="https://fastcdn.mihoyo.com/content-v2/hkrpg/124092/f2d0dba1b114612b93a9ec617e82671f_5272009712422056867.mov" 
+                controls 
+                controlslist="nodownload" 
+                poster="https://fastcdn.mihoyo.com/content-v2/hkrpg/124092/f2d0dba1b114612b93a9ec617e82671f_5272009712422056867.mov?x-oss-process=video%2Fsnapshot%2Ct_0%2Cf_jpg%2Ch_600%2Cm_fast" 
+                webkit-playsinline 
+                playsinline 
+                style="width: 100%; vertical-align: middle;">
+            </video>
+        </div>
+        <div class="item">
+            <h2>▼《崩坏：星穹铁道》动画短片：「格拉默的余烬」▼</h2>
+            <video 
+                src="https://fastcdn.mihoyo.com/content-v2/hkrpg/124131/a8762cac6208580ec3c5cb585c016e72_951778516158044649.mov" 
+                controls 
+                controlslist="nodownload" 
+                poster="https://fastcdn.mihoyo.com/content-v2/hkrpg/124131/a8762cac6208580ec3c5cb585c016e72_951778516158044649.mov?x-oss-process=video%2Fsnapshot%2Ct_0%2Cf_jpg%2Ch_600%2Cm_fast" 
+                webkit-playsinline 
+                playsinline 
+                style="width: 100%; vertical-align: middle;">
+            </video>
+        </div>
+    </div>
+</body>
+</html>
